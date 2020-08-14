@@ -1,0 +1,23 @@
+body {
+  margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  border-radius: 3px;
+  border: 0;
+  border-bottom: 2px solid black;
+  font-family: "Sriracha", cursive;
+  background-color: transparent;
+}
+form input:focus {
+  border: none;
+  border-bottom: 2px solid black !important;
+  background-color: transparent !important;
+}
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(21, 34, 59);
+  color: rgb(203, 233, 245);
+}
